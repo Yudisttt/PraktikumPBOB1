@@ -1,19 +1,29 @@
 /* Nama File    : Titik.java
  * Deskripsi    : berisi atribut dan method dalam class Titik
  * Pembuat      : Ida Bagus Ngurah Yudistira K
- * Tanggal      : 19 Febuari 2026
+ * Tanggal      : 25 Febuari 2026
  */
 
 public class Titik {
     /***********ATRIBUT***********/
     double absis;
     double ordinat;
+    static int counterTitik = 0;
 
     /***********METHOD***********/
     //konstruktor untuk membuat titik (0,0)
-    Titik(){
-        absis = 0;
-        ordinat = 0;
+    Titik(double absis, double ordinat){
+        this.absis = absis;
+        this.ordinat = ordinat;
+        counterTitik++;
+    }
+
+    Titik(){  // Membuat Titik (0,0)
+        this(0,0);
+    }
+
+    static int getCounterTitik(){
+        return counterTitik;
     }
 
     //mengembalikan nilai absis
@@ -42,9 +52,38 @@ public class Titik {
         ordinat = ordinat + x;
     }
 
+    void printcountertitik(){
+        System.out.println(this.counterTitik);
+    }
+
     //mencetak koordinat titik
     void printTitik(){
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
-} //end class Titik
+
+    double getjarakpusat(){
+        return Math.sqrt(Math.pow(absis,2) + Math.pow(ordinat, 2));
+    }
+
+    double getjarak(Titik T){
+        return Math.sqrt(Math.pow(absis - T.absis, 2) + Math.pow(ordinat - T.ordinat, 2));
+    }
+
+    void setrefleksiX(){
+        this.ordinat = -this.ordinat;
+    }
+
+    void setrefleksiY(){
+        this.absis = -this.absis;
+    }
+
+    Titik getRefleksiX(){
+        return new Titik(this.absis, -this.ordinat);
+    }
+
+    Titik getRefleksiY(){
+        return new Titik(-this.absis, this.ordinat);
+    }
+
+} 
 
