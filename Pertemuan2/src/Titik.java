@@ -49,7 +49,11 @@ public class Titik {
     //menggeser nilai absis dan ordinat titik masing masing sejauh x dan y
     void geser(double x, double y){
         absis = absis + x;
+<<<<<<< HEAD
         ordinat = ordinat + y;
+=======
+        ordinat = ordinat + x;
+>>>>>>> f3befb6ab7ec72bd7499c01d05229e487371c78f
     }
 
     void printcountertitik(){
