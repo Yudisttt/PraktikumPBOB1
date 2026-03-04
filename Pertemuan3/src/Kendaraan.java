@@ -33,6 +33,8 @@ public class Kendaraan {
         this.Noplat = noplat;
         this.JenisKendaraan = jenisKendaraan;
     }
+
+    //Agar bisa menampilkan informasi kendaraan,jika tidak hanya akan menampilkan alamat memori
     @Override
     public String toString() {
     return "noPlat: " + Noplat +

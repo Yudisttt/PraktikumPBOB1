@@ -51,6 +51,8 @@ public class Dosen {
         System.out.println("Prodi: " + prodi);
     }
 
+
+    //Agar bisa menampilkan informasi Dosen ,jika tidak hanya akan menampilkan alamat memori
     @Override
     public String toString() {
     return "NIP: " + nip +
