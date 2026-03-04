@@ -59,6 +59,4 @@ public class Dosen {
            ", Nama: " + nama +
            ", Prodi: " + prodi;
     }
-
-
 }
