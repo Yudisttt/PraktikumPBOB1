@@ -1,7 +1,7 @@
 /* Nama File    : Garis.java
  * Deskripsi    : berisi atribut dan method dalam class Garis
  * Pembuat      : Ida Bagus Ngurah Yudistira K
- * Tanggal      : 23 Maret 2026
+ * Tanggal      : 3 Maret 2026
  * 
  */
 
