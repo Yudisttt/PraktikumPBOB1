@@ -1,3 +1,10 @@
+/* Nama File    : main.java
+ * Deskripsi    : berisi main class untuk menjalankan program
+ * Pembuat      : Ida Bagus Ngurah Yudistira K
+ * Tanggal      : 4 Maret 2026
+ * 
+ */
+
 public class main {
     public static void main(String[] args) {
 

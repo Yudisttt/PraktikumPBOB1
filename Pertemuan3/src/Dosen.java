@@ -1,3 +1,10 @@
+/* Nama File    : Dosen.java
+ * Deskripsi    : berisi atribut dan method dalam class Dosen
+ * Pembuat      : Ida Bagus Ngurah Yudistira K
+ * Tanggal      : 4 Maret 2026
+ * 
+ */
+
 public class Dosen {
 
     /*ATRIBUT*/
