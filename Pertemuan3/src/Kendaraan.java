@@ -1,3 +1,10 @@
+/* Nama File    : Kendaraan.java
+ * Deskripsi    : berisi atribut dan method dalam class Kendaraan
+ * Pembuat      : Ida Bagus Ngurah Yudistira K
+ * Tanggal      : 4 Maret 2026
+ * 
+ */
+
 public class Kendaraan {
 
     /*ATRIBUT*/

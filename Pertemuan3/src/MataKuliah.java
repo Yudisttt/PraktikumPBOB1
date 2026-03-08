@@ -1,3 +1,10 @@
+/* Nama File    : MataKuliah.java
+ * Deskripsi    : berisi atribut dan method dalam class MataKuliah
+ * Pembuat      : Ida Bagus Ngurah Yudistira K
+ * Tanggal      : 4 Maret 2026
+ * 
+ */
+
 public class MataKuliah {
     
     /*ATRIBUT*/
