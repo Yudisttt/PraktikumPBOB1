@@ -2,10 +2,11 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class DosenTamu extends DosenP4 {
-
+    // Atribut
     private String nidk;
     private LocalDate akhirKontrak;
 
+    // Konstruktor dengan parameter 
     public DosenTamu(String nip, String nidk, String nama, LocalDate tanggalLahir,
                      LocalDate tmt, double gajiPokok, String fakultas, LocalDate akhirKontrak) {
 
@@ -14,14 +15,16 @@ public class DosenTamu extends DosenP4 {
         this.akhirKontrak = akhirKontrak;
     }
 
-    public double hitungTunjangan() {
+    // Method
+    public double hitungTunjangan() { // Tunjangan 2.5% dari gaji pokok
         return 0.025 * gajiPokok;
     }
 
-    public Period sisaKontrak() {
+    public Period sisaKontrak() { // Menghitung sisa kontrak dalam bulan
         return Period.between(LocalDate.now(), akhirKontrak);
     }
 
+    // Method Override untuk menampilkan informasi lengkap dosen tamu
     @Override
     public void printInfo() {
 
