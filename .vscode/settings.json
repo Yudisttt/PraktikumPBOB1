@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Pertemuan10/Persistensi10/lib/mysql-connector-j-9.3.0.jar"
+    ]
+}
